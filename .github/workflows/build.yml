@@ -8,7 +8,7 @@ on:
 
 env:
   DOTNET_VERSION: '10.0.x'
-  PROJECT_PATH: 'Lab09_PackagedApp'
+  PROJECT_PATH: 'Lab09_PackagedApp.csproj'
 
 jobs:
   build:
