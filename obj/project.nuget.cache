@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "esoJeCl+URs=",
-  "success": false,
+  "dgSpecHash": "iGIEfVBq40k=",
+  "success": true,
   "projectFilePath": "C:\\Users\\radek\\source\\repos\\Lab09_PackagedApp\\Lab09_PackagedApp\\Lab09_PackagedApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\radek\\.nuget\\packages\\fluentassertions\\8.10.0\\fluentassertions.8.10.0.nupkg.sha512",
@@ -46,17 +46,5 @@
     "C:\\Users\\radek\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.28\\microsoft.netcore.app.runtime.win-x64.8.0.28.nupkg.sha512",
     "C:\\Users\\radek\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.28\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.28.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Lab09_PackagedApp -> Lab09_PackagedApp.",
-      "projectPath": "C:\\Users\\radek\\source\\repos\\Lab09_PackagedApp\\Lab09_PackagedApp\\Lab09_PackagedApp.csproj",
-      "filePath": "C:\\Users\\radek\\source\\repos\\Lab09_PackagedApp\\Lab09_PackagedApp\\Lab09_PackagedApp.csproj",
-      "libraryId": "Lab09_PackagedApp",
-      "targetGraphs": [
-        "net8.0-windows10.0.19041.0"
-      ]
-    }
-  ]
+  "logs": []
 }
