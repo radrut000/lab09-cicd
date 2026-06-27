@@ -32,7 +32,11 @@
           "net8.0-windows10.0.19041.0": {
             "framework": "net8.0-windows10.0.19041",
             "targetAlias": "net8.0-windows10.0.19041.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\radek\\source\\repos\\Lab09_PackagedApp\\Lab09_PackagedApp\\Lab09_PackagedApp.csproj": {
+                "projectPath": "C:\\Users\\radek\\source\\repos\\Lab09_PackagedApp\\Lab09_PackagedApp\\Lab09_PackagedApp.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -52,6 +56,14 @@
           "framework": "net8.0-windows10.0.19041",
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.10.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[18.7.0, )"
+            },
             "Microsoft.Windows.SDK.BuildTools": {
               "target": "Package",
               "version": "[10.0.28000.2270, )"
@@ -59,6 +71,16 @@
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
